@@ -1,15 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package library;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-import java.util.*;
-
-/**
- *
- * @author Samudra Bryandhika P
- */
 public class Library {
     public ArrayList<Book> book = new ArrayList<>();
     public Map<Borrower, List<Book>> borrowRecord = new HashMap<>();

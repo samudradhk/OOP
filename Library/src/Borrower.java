@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-package library;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.*;
 
-/**
- *
- * @author Samudra Bryandhika P
- */
 public class Borrower {
     String name;
     private final List<Book>borrowed;
